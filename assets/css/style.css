@@ -93,22 +93,33 @@ p {
 }
 
 
-
 @media screen and (max-width: 768px) {
- 
-    #mtf { 
+    #mtf {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        
-        
-        }
-        
-        #wwa {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text horizontally */
+    }
+    
+    #wwa {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text horizontally */
+    }
+    
+    /* Adjust the image size for mobile */
+    .mobile-image {
+        max-width: 100%; /* Ensure images don't exceed the container width */
+        height: auto; /* Maintain aspect ratio when scaling */
+    }
+    
+    /* Adjust text container styles for mobile screens */
+    .con1,
+    .con2 {
+        width: 100%;
+        padding: 5%;
+    }
 }
 
 /* .logo {
