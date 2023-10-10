@@ -92,6 +92,15 @@ p {
     font-weight:normal;
 }
 
+#mtf { 
+display: flex;
+
+}
+
+#wwa {
+    display: flex;
+}
+
 /* .logo {
     display: flex;
     justify-content: center;
