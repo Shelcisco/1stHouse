@@ -92,13 +92,23 @@ p {
     font-weight:normal;
 }
 
-#mtf { 
-display: flex;
 
-}
 
-#wwa {
-    display: flex;
+@media screen and (max-width: 768px) {
+ 
+    #mtf { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+        }
+        
+        #wwa {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 }
 
 /* .logo {
