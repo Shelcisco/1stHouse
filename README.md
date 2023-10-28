@@ -3,7 +3,7 @@
 
 ## [Description](#table-of-content)
 
-"Coming Soon" PLaceholder site for small business, built using HTML and CSS. 
+"Coming Soon" Placeholder site for small business, built using HTML and CSS. 
 
 ## [Table of Contents](#table-of-content)
 
